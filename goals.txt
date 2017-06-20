@@ -1,0 +1,6 @@
+Goals
+
+1.  Learn more about HTML and CSS
+2.  Learn more about Ruby, JavaScript, Angular
+3.  Learn how to think like a programmer
+4.  Get better at problem solving, and breaking problems down into simpler problems.
