@@ -1,0 +1,7 @@
+2.  In our “Say Hi” example, if the Say Hi part of the program never runs, how would you narrow down the problem?
+
+Backtrack to the User Button Click function to see if that's working.  If this is working properly, backtrack to the User Name Input function.  If the User Name Input function is not working properly, then we know that this is what's causing the problem.
+
+4.  Create a problem-solving example using a roadmap and the process of elimination for narrowing down issues of your own. You already use this skill daily. Break down and explain a problem you solve in your everyday life.
+
+In the roadmap, I used the example of trying to login to a web server, since that's something I do on an everyday basis.  If I'm unable to login, the first thing that I check is whether or not I input a username and password into the appropriate boxes.  If I did, the next thing I would check is to make sure that I clicked the sign in button.  If I did that, and I still can't login, I would check to make sure that my username and password is correct.  Assuming that it is, I would assume that there is a problem on the webserver.
