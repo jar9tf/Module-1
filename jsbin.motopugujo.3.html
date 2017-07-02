@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by anonymous (http://jsbin.com/motopugujo/3/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/0DD93372-2C53-A543-B768-724523EFA94E/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="http://gc.kis.v2.scr.kaspersky-labs.com/E49AFE325427-867B-345A-35C2-27339DD0/abn/main.css"/></head>
+<body>
+
+<script id="jsbin-javascript">
+// Declare the variables we intend to use later.
+var cats,
+    noms;
+
+// Next, create the function we'll use. This is what you'll modify to make the
+// code work.
+
+/**
+ * Determines which animals get a treat.
+ * @param  {array} animals The animals to feed.
+ * @return {array}         A list of who was given a treat.
+ */
+function treatDispenser(animals) {
+  // This array will hold all of the messages we'll return from the function.
+  var results = [];
+  
+  // Hint: Put your super awesome loop here. :)
+  
+  for (i = 0; i < animals.length; i++)
+    
+    var animalName = animals[i];
+    {
+      if (animalName.charAt(0) == "m" || animalName.charAt(0) == "M")
+        {
+          results = results.push("No treat for " + animalName);
+        }
+      
+      else
+        {
+        results = results.push(animalName + " loved their treat!");
+        }
+    }
+  
+  return results;
+}
+
+cats = [
+  'Jayne',
+  'Kaylee',
+  'Malcolm',
+  'Monty',
+  'River',
+  'Simon',
+  'Zoë'
+];
+
+noms = treatDispenser(cats, 'pizza');
+
+console.log(noms);
+
+// This should output:
+//   [
+//     "Jayne loved their treat!",
+//     "Kaylee loved their treat!",
+//     "No treat for Malcolm",
+//     "No treat for Monty",
+//     "River loved their treat!",
+//     "Simon loved their treat!",
+//     "Zoë loved their treat!"
+//   ]
+
+
+</script>
+</body>
+</html>
